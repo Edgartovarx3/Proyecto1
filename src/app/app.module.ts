@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { contadormodue } from './contador/contador.modue';
-import { PokemonModule } from './pocket/pokemon.module';
+import { PokemonModule } from './pokemon/pokemon.module';
 
 
 

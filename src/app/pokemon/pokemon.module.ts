@@ -1,24 +1,23 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { PocketComponent } from './pocket.component';
+import { PokemonComponent } from './pokemon.component';
 import { MainComponent } from './main/main.component';
-
+import { FormsModule } from '@angular/forms';
 
 
 
 @NgModule({
   declarations: [
-    PocketComponent,
+    PokemonComponent,
     MainComponent
+  ],
+  exports:[
+MainComponent,
+PokemonComponent
   ],
   imports: [
     CommonModule,
-    
-    
-  ],
-  exports:[
-    MainComponent,
-    PocketComponent
+    FormsModule
   ]
 })
 export class PokemonModule { }

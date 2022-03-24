@@ -27,11 +27,7 @@ export class CalculadoraComponent implements OnInit {
      this.num="0"
    }
 
-   borrado(){
-     this.n1=0
-     this.op="no"
-     this.num="0"
-   }
+
    igualar(){
      if(this.op!="no"){
        let s1=this.n1+this.op+this.num;
